@@ -1,0 +1,35 @@
+to clear npx Cache                 : npx clear-npx-cache 
+Download Library                   : npm i(install) -g(global) create-react-app@<version>
+Create a Reactapp                  : npx create-react-app appName
+Start the development server       : npm Start
+Bootstrap install                  : npm i bootstrap@4.1.1
+
+1.Difference between React(Library) and Angular(Framework):
+
+2.Advantages of React (updates DOM -Document Object Model - treats xml and html as a tree)
+
+3.What is Components:
+    (Piece of UI which can be reused/Something like functions which can be used wherever needed.)
+
+4.What is Babel : 
+    Transform jsx to js (JavaScript transcompiler that is mainly used to convert ECMAScript 2015+ (ES6+) 
+    code into a backwards compatible version of JavaScript that can be run by older JavaScript engines.)
+
+    JSX (JavaScript Syntax Extension and occasionally referred as JavaScript XML) is a React extension to
+    the JavaScript language syntax which provides a way to structure component rendering using syntax 
+    familiar to many developers. It is similar in appearance to HTML
+
+5.Virtual DOM in React:
+    https://medium.com/devinder/react-virtual-dom-vs-real-dom-23749ff7adc9
+
+6.<React.Fragment> : put under root instead of a div
+
+7.Stateless functional component ( const <name>=()=>{return})
+
+8.Destructioning arguments
+
+9.Lifecycle Hooks
+    Mounting : instance of a component is created and inserted into DOM (constructor,render,componentDidMount)
+    Update : state or props change (render,componentDidUpdate)
+    Unmount : component is removed from a DOM eg.deleteing a counter ( componentWillUnmount)
+    
